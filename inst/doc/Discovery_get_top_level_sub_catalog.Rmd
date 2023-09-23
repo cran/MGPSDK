@@ -1,0 +1,25 @@
+---
+title: "Discovery_get_top_level_sub_catalog"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Discovery_get_top_level_sub_catalog}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MGPSDK)
+```
+```{r}
+#instantiate the interface
+#interface = MGPSDK::Interface$new()
+#interface$discovery_get_top_level_sub_catalog(limit = as.integer(10))
+```
+

@@ -1,0 +1,25 @@
+---
+title: "Basemaps_search"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Basemaps_search}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MGPSDK)
+```
+```{r}
+#instantiate the interface
+#interface = MGPSDK::Interface$new()
+#interface$basemaps_search(bbox = "39.547255,-106.138978,39.648179,-105.931954", srsname = "EPSG:4326", filter="productName='VIVID_STANDARD_30'")
+```
+

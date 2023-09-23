@@ -1,0 +1,25 @@
+---
+title: "Streaming_get_rull_resolution"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Streaming_get_rull_resolution}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MGPSDK)
+```
+```{r}
+#instantiate the interface
+#interface = MGPSDK::Interface$new()
+#interface$get_full_res_image(featureid = "Featureidofimagehere", bbox = "miny,minx,maxy,maxx")
+# this will download a full resolution image intersecting your bbox
+```

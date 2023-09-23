@@ -1,0 +1,25 @@
+---
+title: "Discovery_get_root_catalog"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Discovery_get_root_catalog}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MGPSDK)
+```
+```{r}
+#instantiate the interface
+#interface = MGPSDK::Interface$new()
+#interface$discovery_get_root_catalog()
+```
+

@@ -1,0 +1,25 @@
+---
+title: "Streaming_download_image"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Streaming_download_image}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MGPSDK)
+```
+```{r}
+#instantiate the interface
+#interface = MGPSDK::Interface$new()
+#interface$download_image(bbox = "miny,minx,maxy,maxx", height = 512, width = 512)
+```
+

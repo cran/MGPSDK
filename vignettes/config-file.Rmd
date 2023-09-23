@@ -1,0 +1,24 @@
+---
+title: "config-file"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{config-file}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#Create a config file named ".MGP-config" in your home directory or working directory. 
+#Ex file format. 
+#' [MGP] 
+#' user_name=MGPUSERNAME
+#' user_password=MGPPASSWORD 
+#' client_id=CLIENTID
+```
